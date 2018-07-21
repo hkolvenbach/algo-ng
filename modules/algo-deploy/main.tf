@@ -3,6 +3,7 @@ variable "vpn_users" {}
 variable "ca_password" {}
 variable "algo_ssh_private" {}
 variable "private_key_pem" {}
+variable "DEPLOY_vpn" {}
 variable "DEPLOY_dns_adblocking" {}
 variable "DEPLOY_ssh_tunneling" {}
 variable "DEPLOY_security" {}

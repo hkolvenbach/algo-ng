@@ -13,6 +13,7 @@ module "user-data" {
 }
 
 module "cloud-ec2" {
+  image              = "${var.image["ec2.name"]}"
   source              = "../../modules/cloud-ec2/"
   image               = "${var.image["ec2"]}"
   size                = "${var.size["ec2"]}"
